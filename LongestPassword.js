@@ -1,6 +1,5 @@
 
 function solution(S) {
-    // write your code in JavaScript (Node.js 8.9.4)
 
     let i = 0
     let str = "";
@@ -47,8 +46,3 @@ function solution(S) {
     }
     return result;
 }
-
-// let str = "test676popopopp 5 a0A pass007 4555xppy1";
-let str = 'test? 5? a0A pass??007 ?xy.513541354135))))1 po12popo1234567 123456789as';
-
-console.log(solution(str))

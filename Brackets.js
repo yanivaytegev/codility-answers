@@ -1,5 +1,4 @@
 
-
 function solution(S) {
 
     let arr = [];
@@ -34,10 +33,4 @@ function solution(S) {
     return 0
 }
 
-let A = "{[()()]}"
-//let A = "([)()]"
-//let A = ")("
-//let A = "[()}";
 
-
-console.log(solution(A));

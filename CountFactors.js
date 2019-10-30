@@ -1,6 +1,5 @@
 function solution(N) {
 
-
     let i = 1;
     let count = 0;
 
@@ -19,23 +18,4 @@ function solution(N) {
 }
 
 
-console.log(solution(456987444))
 
-
-
-
-
-
-
-// let i = 0;
-// let count = 1;
-
-// while (N !== i) {
-
-//     if (N % i === 0) {
-//         count++;
-//     }
-//     i++;
-// }
-
-// return count;

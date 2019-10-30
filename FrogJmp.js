@@ -8,7 +8,6 @@ function solution(X, Y, D) {
         return 1
     }
 
-
     if (((Y - X) / D) % 1 === 0) {
 
         return parseInt((Y - X) / D)
@@ -16,5 +15,4 @@ function solution(X, Y, D) {
     }
 
     return parseInt((Y - X) / D) + 1
-
 }

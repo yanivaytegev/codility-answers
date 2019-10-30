@@ -22,8 +22,3 @@ function solution(A = []) {
 
     return count;
 }
-
-
-let arr = [2, 1, 1, 2, 3, 1]
-
-console.log(solution(arr))

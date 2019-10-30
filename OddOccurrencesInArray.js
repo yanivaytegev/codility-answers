@@ -1,3 +1,4 @@
+//way 1
 function solution(A) {
     let array = [];
 
@@ -18,6 +19,7 @@ function solution(A) {
     }
 }
 
+//way 2
 function solution2(N) {
 
     var odd = 0
@@ -28,8 +30,3 @@ function solution2(N) {
 
     return odd;
 }
-
-
-let arr = [1, 1, 3, 2, 2]
-console.log(solution(arr));
-console.log(solution2(arr));

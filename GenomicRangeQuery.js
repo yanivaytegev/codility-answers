@@ -22,14 +22,3 @@ function solution(S, P, Q) {
 
     return arr;
 }
-
-// let S = "CAGCCTA";
-// let P = [2, 5, 0];
-// let Q = [4, 5, 6];
-
-let S = "TC";
-let P = [0, 0, 1];
-let Q = [0, 1, 1];
-console.log(solution(S, P, Q))
-
-//return 2,4,1

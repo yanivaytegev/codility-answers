@@ -12,8 +12,3 @@ function solution(A = []) {
 
     return result;
 }
-
-
-let arr = [-3, 1, 2, -4, -6, 10, -120, -2, 5, 6, 5, 2, 96, 96, 5, -1000, -2]
-//let arr = [4, 5, 1, 0]
-console.log(solution(arr))

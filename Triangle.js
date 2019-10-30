@@ -15,8 +15,4 @@ function solution(A) {
 
 }
 
-let A = [10, 2, 5, 1, 8, 20]
-//let A = [10, 50, 5, 1]
-
-console.log(solution(A))
 

@@ -1,8 +1,4 @@
 
-
-let T = [9, 1, 4, 9, 0, 4, 8, 9, 0, 1]
-
-
 function solution(T) {
 
     let i = 0;
@@ -35,6 +31,3 @@ function solution(T) {
 
     return distance
 }
-
-
-console.log(solution(T))

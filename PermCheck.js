@@ -1,29 +1,26 @@
 
+//way 1
+function solution(A) {
 
- let array = [4,1,2,3];
-
-
-solution = (arr) =>{
-
-    let sum = arr.length;
+    let sum = A.length;
     let total = 0;
 
-    for(let i = 0; i < arr.length ; i++) {   
+    for (let i = 0; i < A.length; i++) {
 
         sum += i;
-        total += arr[i];
+        total += A[i];
     }
 
-    if(sum === total){
+    if (sum === total) {
         return 1;
     }
-    else{
+    else {
         return 0;
     }
 }
 
 
-
+//way 2
 function solution(A) {
     var L = A.length; // Length of the array
     var X = ((L + 1) * L) / 2; // Sum from 1..L
@@ -31,16 +28,16 @@ function solution(A) {
     var I = 0; // Counter
     var F = []; // Found elements
     var V = -1; // Container
-      
+
     while (I < L) { // Start searching the array
-      V = A[I]; // Get the value
-      I++; // Increase the counter
-      if (F[V]) continue; // If we've accounted for this, continue
-      F[V] = true; // Record the value
-      Y += V; // Add to the evaluated sum
+        V = A[I]; // Get the value
+        I++; // Increase the counter
+        if (F[V]) continue; // If we've accounted for this, continue
+        F[V] = true; // Record the value
+        Y += V; // Add to the evaluated sum
     }
-      
+
     // If the evaluated sum is equal to the sum of the array length
     // then we can be sure that the array is a permutation.
     return X === Y ? 1 : 0;
-  }
+}

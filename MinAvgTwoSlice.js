@@ -1,4 +1,4 @@
-
+//way 1
 function solution(A) {
 
     let min = A.length * 10000;
@@ -33,54 +33,9 @@ function solution(A) {
     return pos;
 }
 
-//let A = [4, 2, 2, 5, 1, 5, 8]
-//let A = [6, 5, 4, 1, 2, 4, 5, 1, 1, 1]
-//let A = [-1000, -1000]
-//let A = [10000, -10000, -10000, 10000]
-let A = [-3, -5, -8, -4, -10]
-console.log(solution(A))
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// let min = A.length * 10000;
-// let result;
-
-// for (let i = 0; i < A.length; i++) {
-//     let pos = i;
-//     let count = 1;
-//     let sum = A[i];
-//     for (let j = i + 1; j <= A.length - 1; j++) {
-
-//         count++;
-//         sum += A[j]
-//         let avg = sum / count
-//         if (min > avg) {
-//             min = avg;
-//             result = pos
-//         }
-//     }
-// }
-// return result++
-
-
-
-
+//way 2
 function solution(A) {
     var start = 0;
 
